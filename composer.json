@@ -1,0 +1,22 @@
+{
+    "name": "maykonmeier/active-record",
+    "description": "ActiveRecord project compiled for ZF2",
+    "authors": [
+        {
+            "name": "Maykon R. Meier",
+            "email": "maykon.meier@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Custom": "Custom/"
+        },
+        "files": [
+            "ActiveRecord.php"
+        ]
+    }
+}
