@@ -12,9 +12,6 @@
         "zendframework/zendframework": "2.*"
     },
     "autoload": {
-        "psr-0": {
-            "Custom": "Custom/"
-        },
         "files": [
             "ActiveRecord.php"
         ]
